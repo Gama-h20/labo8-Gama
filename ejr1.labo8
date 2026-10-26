@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+void mostrarParidad(int numero) {
+    if (numero % 2 == 0) {
+        cout << "Par" << endl;
+    } else {
+        cout << "Impar" << endl;
+    }
+}
+
+int main() {
+    int numero;
+
+    cout << "Ingrese un numero entero: ";
+    cin >> numero;
+
+    mostrarParidad(numero);
+
+    return 0;
+}
